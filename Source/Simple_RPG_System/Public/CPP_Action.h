@@ -19,11 +19,17 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
-	int Range;
-	int Cooldown;
-	int ManaCost;
-	int ActionPointCost;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int Range;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int AreaOfEffect;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int Cooldown;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int ManaCost;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int ActionPointCost;
 
 public:	
 	// Called every frame

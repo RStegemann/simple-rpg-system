@@ -30,7 +30,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
-	FVector<ACPP_Action> Actions;
+	FVector<ACPP_Action*> Actions;
+	FVector2d* Position;
+	FCharacterStats* Stats;
 
 public:	
 	// Called every frame
@@ -39,4 +41,5 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void BeginTargetting(ACPP_Action* Action);
+	virtual void MoveTo(FVector2d TargetPosition);
 };

@@ -30,6 +30,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<ETileType> TileType;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int MovementCost;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

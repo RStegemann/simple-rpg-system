@@ -3,9 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "CPP_Action.h"
 #include "GameFramework/Pawn.h"
 #include "CPP_HexPawn.generated.h"
+
+class ACPP_Action;
 
 USTRUCT()
 struct FCharacterStats
@@ -30,7 +31,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
-	FVector<ACPP_Action*> Actions;
+	TArray<ACPP_Action*> Actions;
 	FVector2d* Position;
 	FCharacterStats* Stats;
 

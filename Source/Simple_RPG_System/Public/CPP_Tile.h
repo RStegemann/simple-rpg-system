@@ -14,7 +14,7 @@ enum ETileType
 };
 
 UCLASS()
-class UE_3D_TILEMAP_API ACPP_Tile : public AActor
+class SIMPLE_RPG_SYSTEM_API ACPP_Tile : public AActor
 {
 	GENERATED_BODY()
 	

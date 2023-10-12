@@ -4,8 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "CPP_HexPawn.h"
 #include "CPP_Action.generated.h"
+
+class ACPP_HexPawn;
 
 UCLASS()
 class SIMPLE_RPG_SYSTEM_API ACPP_Action : public AActor

@@ -25,3 +25,7 @@ void ACPP_Action::Tick(float DeltaTime)
 
 }
 
+void ACPP_Action::UseAt(ACPP_HexPawn* User, FVector2d TargetHex)
+{
+}
+

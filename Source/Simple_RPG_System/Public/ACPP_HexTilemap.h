@@ -10,7 +10,7 @@
  * 
  */
 UCLASS(Blueprintable)
-class UE_3D_TILEMAP_API ACPP_HexTilemap : public ACPP_Tilemap
+class SIMPLE_RPG_SYSTEM_API ACPP_HexTilemap : public ACPP_Tilemap
 {
 	GENERATED_BODY()
 protected:

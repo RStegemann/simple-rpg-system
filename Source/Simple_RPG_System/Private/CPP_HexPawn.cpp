@@ -32,3 +32,11 @@ void ACPP_HexPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
+void ACPP_HexPawn::BeginTargetting(ACPP_Action* Action)
+{
+}
+
+void ACPP_HexPawn::MoveTo(FVector2d TargetPosition)
+{
+}
+

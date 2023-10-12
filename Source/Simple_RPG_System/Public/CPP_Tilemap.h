@@ -8,7 +8,7 @@
 #include "CPP_Tilemap.generated.h"
 
 UCLASS(Blueprintable)
-class UE_3D_TILEMAP_API ACPP_Tilemap : public AActor
+class SIMPLE_RPG_SYSTEM_API ACPP_Tilemap : public AActor
 {
 	GENERATED_BODY()
 	

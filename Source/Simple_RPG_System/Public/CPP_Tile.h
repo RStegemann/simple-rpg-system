@@ -13,7 +13,7 @@ enum ETileType
 	Square UMETA(DisplayName="Square")
 };
 
-UCLASS()
+UCLASS(Blueprintable)
 class SIMPLE_RPG_SYSTEM_API ACPP_Tile : public AActor
 {
 	GENERATED_BODY()
